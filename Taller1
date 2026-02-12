@@ -1,0 +1,20 @@
+# Creacion de listas 
+class Lista:
+
+# Lista unidimensional
+    digitos = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Lista bidimensional 
+    listab = [[1, 2, 3 ], 
+          [4, 5, 6], 
+          [7, 8, 9]]
+
+# Acceso a los elementos de la lista
+
+# Segundo elemento de la lista unidimensional 
+    def mostrar_elemento_2(self):
+        print(self.digitos[1])  
+
+    def mostrar_elemento(self): # imprime elemento de la segunda fila y la segunda columna 
+        elemento = self.listab[1][1]
+        print(elemento)
